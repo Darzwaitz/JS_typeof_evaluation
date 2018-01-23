@@ -1,0 +1,18 @@
+ #abox{
+    width: 250px;
+    height: 100px;
+    background: navy;
+    margin-bottom: 1em;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+ 
+#abox.openbox{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    border: solid 4px yellow;
+}
